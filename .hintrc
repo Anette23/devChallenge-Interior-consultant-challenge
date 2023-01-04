@@ -1,0 +1,12 @@
+{
+  
+  "development"
+    "connector": {...},
+    "formatters": [...],
+    "hints": {
+        "disown-opener": ["error", {
+            "includeSameOriginURLs": true
+        }],
+        ...
+    },
+}
